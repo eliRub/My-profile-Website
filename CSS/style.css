@@ -1,0 +1,138 @@
+body{
+    text-align: center;
+    margin: 0;
+    /* font-family: Tahoma,Verdana,Segoe,sans-serif;  */
+    font-family: 'Merriweather', serif;
+}
+.top-container{
+    background-color:  #EAF6F6;
+    padding-top: 100px;
+    position: relative;
+} 
+h1{ 
+    /* width: 500px; */
+    /* margin: 0 auto 0 auto; It centers the h1, due to the body's thex-align - don't effect elemebts with width */
+    color: #66BFBF;
+    margin: 10px auto 0 auto;
+    font-family: 'Sacramento', 'Great Vibes', cursive;
+    font-size: 4rem; /* 100%==16px==1emx, rem- means that it doesn't get effected by upstream size changes.*/ 
+}
+.pro{
+    text-decoration: underline;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.2rem;
+    color: #66BFBF;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+#cloud-1-img{
+    position: absolute;
+    right: 15%;
+    top: 40px;
+}
+#cloud-2-img{
+    position: absolute;
+    left: 15%;
+    top: 300px;
+}
+
+
+.middle-container{
+    margin: 100px 0 100px 0;
+}
+.my-photo{
+    width: 180px;
+    border-radius: 100%;
+}
+.intro{
+    width: 30%;
+    margin: auto;
+}
+p{
+    color: #40514E;
+    line-height: 2;
+}
+hr{
+    height: 10px;
+    /* background: linear-gradient(lightgrey, white); */
+    border-style: dotted none none none;
+    border-width: 5px;
+    border-color:#EAF6F6;
+    width: 10%;
+    margin: 70px auto;
+}
+.skill-row{
+    width: 50%;
+    margin: 50px auto 50px auto;
+    text-align: left;
+}
+h3{
+    /* font-family: 'Sacramento', cursive; */
+    font-family: 'Montserrat', sans-serif;
+    color:  #11999E;
+}
+#computer-img{
+    float: left;
+    width: 25%;
+    padding-right: 25px;
+}
+#chillies-img{
+    float: right;
+    width: 25%;
+    margin-left: 20px;
+
+}
+/* #chillies-descroption{
+    clear: right;
+} */
+.contact-massane{
+    width: 40%;
+    margin: 30px auto 60px auto;
+}
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family:  'Montserrat', sans-serif;
+    color: #EAF6F6;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
+
+
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 40px 0px 10px 0px;
+}
+.footer-link{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+.footer-link:hover{
+    color: #EAF6F6; 
+}
+.copyright{
+    color: #EAF6F6;
+    font-size: 10px;
+    padding: 20px 0;
+}
