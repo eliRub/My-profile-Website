@@ -73,18 +73,22 @@ h3{
     font-family: 'Montserrat', sans-serif;
     color:  #11999E;
 }
-#computer-img{
+#education-img{
     float: left;
     width: 25%;
     padding-right: 25px;
 }
-#chillies-img{
+#experience-img{
     float: right;
     width: 25%;
     margin-left: 20px;
 
 }
-/* #chillies-descroption{
+.hebrew-words{
+    font-style: italic;
+    text-decoration: underline;
+}
+/* #experience-descroption{
     clear: right;
 } */
 .contact-massane{
