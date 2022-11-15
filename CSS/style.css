@@ -6,14 +6,40 @@ body{
 }
 .top-container{
     background-color:  #EAF6F6;
-    padding-top: 100px;
     position: relative;
+}
+.nav_bar{
+    position: fixed;
+    width:100%;
+    height: 50px;
+    padding-top: 15px;
+    background-color: #73c5c5;
+    z-index: 1;
+}
+#nav_AboutME{
+    position: absolute;
+    left: 20%;
+    color: #058080;
+    font-size: 20px;
+}
+#nav_Experience{
+    position: absolute;
+    left: 44%;
+    color: #058080;
+    font-size: 20px;
+}
+#nav_ContactMe{
+    position: absolute;
+    left: 70%;
+    color: #058080;
+    font-size: 20px;
 } 
 h1{ 
     /* width: 500px; */
     /* margin: 0 auto 0 auto; It centers the h1, due to the body's thex-align - don't effect elemebts with width */
     color: #66BFBF;
-    margin: 10px auto 0 auto;
+    margin: 0 auto 0 auto;
+    padding-top: 150px;
     font-family: 'Sacramento', 'Great Vibes', cursive;
     font-size: 4rem; /* 100%==16px==1emx, rem- means that it doesn't get effected by upstream size changes.*/ 
 }
@@ -30,7 +56,7 @@ h2{
 #cloud-1-img{
     position: absolute;
     right: 15%;
-    top: 40px;
+    top: 110px;
 }
 #cloud-2-img{
     position: absolute;
@@ -82,13 +108,12 @@ h3{
     float: right;
     width: 25%;
     margin-left: 20px;
-
 }
 .hebrew-words{
     font-style: italic;
     text-decoration: underline;
 }
-/* #experience-descroption{
+/* #experience-descreption{
     clear: right;
 } */
 .contact-massane{
