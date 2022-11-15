@@ -7,6 +7,8 @@
     <meta name="author" content="Eli Rubenstein">
     <meta name="keywords" content="Eli, Rubenstein, Profile">
     <meta name="description" content="a website for my profile.">
+
+    <title>Eli Rubenstein</title>
     
     <link type="text/css" rel="stylesheet" href="CSS/style.css">
     <link rel="icon" href="images/favicon.ico">
@@ -18,8 +20,12 @@
 </head>
 <body>
 
-    
     <div class="top-container">
+        <div class="nav_bar">
+              <a id="nav_AboutME" href="#profile">About me</a>
+              <a id="nav_Experience" href="#skills">Experience</a>
+              <a id="nav_ContactMe" href="#bottom-container">Contact me</a>
+        </div>
         <img id="cloud-1-img" src="images/cloud.png" alt="cloud image">
         <h1>I'm Eli Ruben</h1>
         <h2 >a <span class="pro">pro</span>grammer</h2>
@@ -28,13 +34,13 @@
     </div>
 
     <div class="middle-container">
-        <div class="profile">
+        <div id="profile" class="profile">
             <img class="my-photo" src="images/eli.jpg" alt="My Profile">
             <h2>Hello.</h2>
             <p class="intro">I'm a computer science student at Ashkelon College, I like technology and code, and I ❤ coffee:)</p>
         </div>
         <hr>
-        <div class="skills">
+        <div id="skills" class="skills">
             <h2>My Skills.</h2>
             <div class="skill-row">
                 <img id="education-img" class="" src="images/education-img.png" alt="My skills">
@@ -44,7 +50,7 @@
             <div class="skill-row">
                 <img id="experience-img" class="" src="images/experience-img.png" alt="">
                 <h3>Experience</h3>
-                <p id="experience-descroption">I started a degree in computer science in October 2020, at Ashkelon College.<br>
+                <p id="experience-descreption">I started a degree in computer science in October 2020, at Ashkelon College.<br>
                     Currently, I am in the second year of my degree and I have experience in 'Java', some 'Python' and 'full stack'.</p>
                 <p>The programming courses I took in college are:</p>    
                 <ul> 
@@ -66,7 +72,7 @@
     </div>
 
 
-    <div class="bottom-container">
+    <div id="bottom-container" class="bottom-container">
         <a class="footer-link" href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
         <a class="footer-link" href="https://twitter.com/" target="_blank">Twitter</a>
         <a class="footer-link" href="https://www.chess.com" target="_blank">Website</a>
